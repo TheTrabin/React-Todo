@@ -1,5 +1,5 @@
 import React from 'react';
-// import Todo from './components/Todo';
+import "./App.css";
 
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
@@ -63,7 +63,7 @@ class App extends React.Component {
     return (
       <div>
       <div>
-        <h2>Welcome to your Todo App!</h2>
+        <h1>Welcome to your Todo App!</h1>
       </div>
       <div>
         <TodoList 
